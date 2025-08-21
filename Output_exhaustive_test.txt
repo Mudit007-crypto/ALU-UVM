@@ -1,0 +1,7 @@
+===================================================
+Exhaustive test complete (WIDTH=8)
+Total vectors tested : 524288
+Passed               : 524288
+Failed               : 0
+===================================================
+$ finish called at time 524288 ns File "C:/Users/mbids/ALU/ALU. srcs/ sources 1/ new/ tb exhaustive . sv" Line 195

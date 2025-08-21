@@ -1,0 +1,62 @@
+Time resolution is 1 ps
+--------------------------------------------------
+[Generator] A=182, B=214, opcode=5, result=0
+[Driver] A=182, B=214, opcode=5, result=0
+[Monitor] A=182, B=214, opcode=5, result=246
+[SCOREBOARD] PASS for opcode=5, a=182, b=214
+--------------------------------------------------
+--------------------------------------------------
+[Generator] A=206, B=146, opcode=5, result=0
+[Driver] A=206, B=146, opcode=5, result=246
+[Monitor] A=206, B=146, opcode=5, result=222
+[SCOREBOARD] PASS for opcode=5, a=206, b=146
+--------------------------------------------------
+--------------------------------------------------
+[Generator] A=59, B=164, opcode=6, result=0
+[Driver] A=59, B=164, opcode=6, result=222
+[Monitor] A=59, B=164, opcode=6, result=159
+[SCOREBOARD] PASS for opcode=6, a=59, b=164
+--------------------------------------------------
+--------------------------------------------------
+[Generator] A=165, B=205, opcode=5, result=0
+[Driver] A=165, B=205, opcode=5, result=159
+[Monitor] A=165, B=205, opcode=5, result=237
+[SCOREBOARD] PASS for opcode=5, a=165, b=205
+--------------------------------------------------
+--------------------------------------------------
+[Generator] A=71, B=229, opcode=5, result=0
+[Driver] A=71, B=229, opcode=5, result=237
+[Monitor] A=71, B=229, opcode=5, result=231
+[SCOREBOARD] PASS for opcode=5, a=71, b=229
+--------------------------------------------------
+--------------------------------------------------
+[Generator] A=118, B=9, opcode=1, result=0
+[Driver] A=118, B=9, opcode=1, result=231
+[Monitor] A=118, B=9, opcode=1, result=109
+[SCOREBOARD] PASS for opcode=1, a=118, b=9
+--------------------------------------------------
+--------------------------------------------------
+[Generator] A=118, B=96, opcode=1, result=0
+[Driver] A=118, B=96, opcode=1, result=109
+[Monitor] A=118, B=96, opcode=1, result=22
+[SCOREBOARD] PASS for opcode=1, a=118, b=96
+--------------------------------------------------
+--------------------------------------------------
+[Generator] A=17, B=49, opcode=0, result=0
+[Driver] A=17, B=49, opcode=0, result=22
+[Monitor] A=17, B=49, opcode=0, result=66
+[SCOREBOARD] PASS for opcode=0, a=17, b=49
+--------------------------------------------------
+--------------------------------------------------
+[Generator] A=207, B=177, opcode=0, result=0
+[Driver] A=207, B=177, opcode=0, result=66
+[Monitor] A=207, B=177, opcode=0, result=128
+[SCOREBOARD] PASS for opcode=0, a=207, b=177
+--------------------------------------------------
+--------------------------------------------------
+[Generator] A=7, B=117, opcode=5, result=0
+[Driver] A=7, B=117, opcode=5, result=128
+[Monitor] A=7, B=117, opcode=5, result=119
+[SCOREBOARD] PASS for opcode=5, a=7, b=117
+--------------------------------------------------
+$finish called at time : 10 ns : File "C:/Users/mbids/ALU/ALU.srcs/sources_1/new/test.sv" Line 3

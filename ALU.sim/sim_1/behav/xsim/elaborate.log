@@ -1,0 +1,32 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/VIVADO/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot tbench_top_behav xil_defaultlib.tbench_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3705] select index 31 into 'in_a' is out of bounds [C:/Users/mbids/ALU/ALU.srcs/sources_1/new/scoreboard.sv:27]
+WARNING: [VRFC 10-3705] select index 31 into 'out_result' is out of bounds [C:/Users/mbids/ALU/ALU.srcs/sources_1/new/scoreboard.sv:28]
+WARNING: [VRFC 10-3705] select index 31 into 'in_a' is out of bounds [C:/Users/mbids/ALU/ALU.srcs/sources_1/new/scoreboard.sv:36]
+WARNING: [VRFC 10-3705] select index 31 into 'out_result' is out of bounds [C:/Users/mbids/ALU/ALU.srcs/sources_1/new/scoreboard.sv:37]
+WARNING: [VRFC 10-3705] select index 31 into 'out_result' is out of bounds [C:/Users/mbids/ALU/ALU.srcs/sources_1/new/scoreboard.sv:56]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/mbids/ALU/ALU.srcs/sources_1/new/tbench_top.sv" Line 1. Module tbench_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/mbids/ALU/ALU.srcs/sources_1/new/interface.sv" Line 1. Module intf_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/mbids/ALU/ALU.srcs/sources_1/new/test.sv" Line 1. Module test_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/mbids/ALU/ALU.srcs/sources_1/new/ALU_dut.sv" Line 5. Module alu_comb_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/mbids/ALU/ALU.srcs/sources_1/new/tbench_top.sv" Line 1. Module tbench_top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/mbids/ALU/ALU.srcs/sources_1/new/interface.sv" Line 1. Module intf_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/mbids/ALU/ALU.srcs/sources_1/new/test.sv" Line 1. Module test_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/mbids/ALU/ALU.srcs/sources_1/new/ALU_dut.sv" Line 5. Module alu_comb_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_ALU_dut_sv_500858414
+Compiling package std.std
+Compiling module xil_defaultlib.intf_default
+Compiling module xil_defaultlib.test_default
+Compiling module xil_defaultlib.alu_comb_default
+Compiling module xil_defaultlib.tbench_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tbench_top_behav
